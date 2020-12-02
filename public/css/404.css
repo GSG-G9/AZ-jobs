@@ -1,0 +1,40 @@
+*{
+    padding:0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.header{
+    padding: 15px 72px 5px 37px;
+    background-color: #EFEFEF;
+}
+.main{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.footer{
+    padding: 15px 80px;
+    background-color: #EFEFEF;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.error_num{
+    font-size: 150px;
+    text-align: center;
+    color: #F46262;
+}
+.error_msg{
+    text-align: center;
+    font-size: 20px;
+}
+.error_img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding: 25px;
+}
