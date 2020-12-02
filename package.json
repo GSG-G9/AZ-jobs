@@ -2,7 +2,7 @@
   "name": "az-jobs",
   "version": "1.0.0",
   "description": "",
-  "main": "entrypoint.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
