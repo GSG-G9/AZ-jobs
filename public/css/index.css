@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.header{
+    padding: 15px 72px 5px 37px;
+    background-color: #EFEFEF;
+}
+.main{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.search_div_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search_div{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 15px;
+    border-radius: 23px;
+    border: 3px solid #000;
+}
+.searchlbl{
+    width:100%;
+    padding: 10px 5px;
+    text-align: center;
+}
+.search_input{
+    width: 85%;
+    padding: 13px 20px;
+    border-radius: 23px;
+    border: none;
+    background-color: transparent;
+}
+.btnSearch{
+    width: 15%;
+    border-radius: 23px;
+    background-color: #F46262;
+    border: 2px solid #eaeaea;
+}
+.search_result{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.job-title{
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 18px;
+}
+.job-title:hover{
+    background-color: #eee;
+}
+.footer{
+    padding: 15px 80px;
+    background-color: #EFEFEF;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
