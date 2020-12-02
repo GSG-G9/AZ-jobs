@@ -7,19 +7,23 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <img src="./img/job-search-logo.png" alt="logo">
     </header>
-    <main>
-        <div class="search_div" id="search_div">
-            <input type="search" class="search_input" id="search_input" placeholder="Search for you jobs here...">
-            <button class="btnSearch" id="btnSearch">Search</button>
+    <main class="main">
+        <div class="search_div_container">
+            <label for="search_input" class="searchlbl">JOBS Search Engine</label>
+            <div class="search_div" id="search_div">
+                <input type="search" class="search_input" id="search_input" placeholder="Search for you jobs here...">
+                <button class="btnSearch" id="btnSearch">Search</button>
+            </div>
         </div>
         <div class="search_result" id="search_result">
 
         </div>
     </main>
-    <footer>
+    <footer class="footer">
+        <p>All rights reserved &copy; 2020</p>
     </footer>
     <script type="text/javascript" src="./src/dom.js"></script>
 </body>
